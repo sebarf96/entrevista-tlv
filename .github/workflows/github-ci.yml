@@ -27,3 +27,10 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+
+    - name: Prepare coverage
+      run: go test ./...  --covermode=count --coverprofile coverage.out >> /dev/null
+    
+    - name: Coverage
+      run: go tool cover -func coverage.out
+
