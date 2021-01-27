@@ -35,3 +35,6 @@ Ejemplo:
 > Para "11A05AB398765UJ102N2300" Los campos son:
 > - 05 de tipo Alfanumérico de largo 11 y valor AB398765UJ1
 > - 23 de tipo Numérico de largo 2 y valor 00
+
+
+https://github.com/sebarf96/entrevista-tlv/actions
