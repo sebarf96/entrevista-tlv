@@ -1,0 +1,8 @@
+language: go
+go: 
+ - 1.x
+ - master
+ - develop
+
+script:
+ - go test -v ./...

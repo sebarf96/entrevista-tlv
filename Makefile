@@ -4,9 +4,6 @@ PROYECT = tlv-to-map
 build: 
 	@echo "ESTAMOS CREANDO EL BINARIO DE ESTA INCREIBLE FUNCIONALIDAD .... !!!"
 	@echo "--------------------------------------------------"
-	@echo "--------------------------------------------------"
-	@echo "--------------------------------------------------"
-	@echo "--------------------------------------------------"
 	@go build -mod=vendor -ldflags '-s -w' -o $(BUILDPATH)/build/bin/${PROYECT} cmd/main.go
 	@echo "BINARIO GENERADO CORRECTAMENTE EN:       build/bin/${PROYECT}"
 
