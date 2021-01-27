@@ -13,7 +13,7 @@ var (
 
 //TlvToMAP campos tlv en formato []Byte --> Mapa con los campos encontrados en el TLV
 func TlvToMAP(tlv []byte) (map[string]string, error) {
-	//seteo las variables
+
 	mapFinal := make(map[string]string)
 	tlvString := string(tlv)
 
